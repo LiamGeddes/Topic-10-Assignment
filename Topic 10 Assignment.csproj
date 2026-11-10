@@ -81,5 +81,26 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1680192835190.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\power-supply-unit-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medium_plus_a2ac1-Logitech-920-002478-Keyboards-Logitech-Keyboard-K120-English-CDN-Layout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cpu_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\240_F_1686600159_FN39lhawZYQk7qNS8doDG0Im5mwQkp1u.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Different-types-ssd-disk-dr.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-2158979803-612x612.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
