@@ -31,13 +31,13 @@ namespace Topic_10_Assignment
         private void btnRAM_Click(object sender, EventArgs e)
         {
             picComponent.Image = Properties.Resources.RAMImage;
-            lblDescription.Text = "RAM is short-term memory that stores information the computer is currently using. It loses its data when the computer is turned off.";
+            lblDescription.Text = "RAM is short-term memory that stores information the computer is currently using. It loses its data when the computer is off.";
         }
 
         private void btnSSD_Click(object sender, EventArgs e)
         {
             picComponent.Image = Properties.Resources.SSDImage;
-            lblDescription.Text = "An SSD is a storage device that saves files , programs , and the operating system. It keeps information even when the computer is turned off.";
+            lblDescription.Text = "An SSD is a storage device that saves files , programs , and the operating system. It keeps information even when the computer is off.";
         }
 
         private void btnPower_Click(object sender, EventArgs e)

@@ -42,6 +42,7 @@
             // 
             // picComponent
             // 
+            this.picComponent.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.picComponent.Location = new System.Drawing.Point(188, 69);
             this.picComponent.Name = "picComponent";
             this.picComponent.Size = new System.Drawing.Size(264, 173);
@@ -52,10 +53,11 @@
             // lblDescription
             // 
             this.lblDescription.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.lblDescription.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDescription.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.lblDescription.Location = new System.Drawing.Point(200, 245);
+            this.lblDescription.Location = new System.Drawing.Point(188, 245);
             this.lblDescription.Name = "lblDescription";
-            this.lblDescription.Size = new System.Drawing.Size(218, 66);
+            this.lblDescription.Size = new System.Drawing.Size(264, 66);
             this.lblDescription.TabIndex = 1;
             this.lblDescription.Text = "Select a component to learn more.";
             this.lblDescription.Click += new System.EventHandler(this.lblDescription_Click);
@@ -156,7 +158,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.ClientSize = new System.Drawing.Size(559, 312);
+            this.ClientSize = new System.Drawing.Size(560, 307);
             this.Controls.Add(this.btnOutput);
             this.Controls.Add(this.btnInput);
             this.Controls.Add(this.btnPower);
